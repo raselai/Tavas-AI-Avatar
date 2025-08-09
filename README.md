@@ -34,9 +34,11 @@ This project started as a learning experiment and turned into something pretty a
 
 ## 🎥 See It In Action
 
-Check out the demo to see what I've been working on:
+Watch my Tavus AI app in action:
 
-[Watch the Demo](https://www.loom.com/share/b4e3ef661e264260a8d8f4cede48aaa8?sid=ada64974-5495-4c52-b635-7ac76b543208)
+[![Demo Video](https://img.youtube.com/vi/eEp60DoEJy0/0.jpg)](https://youtu.be/eEp60DoEJy0)
+
+*Click the image above to watch the full demo on YouTube*
 
 ## 🛠 Let's Get This Running
 
