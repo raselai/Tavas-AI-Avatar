@@ -1,26 +1,29 @@
-# My Tavus Conversational AI App
+# 🚀 My Tavus AI Learning Project
 
-## 🚀 Features
+Hey there! 👋 I'm **Nazmul Hoque**, a Gen AI engineer who loves exploring the cutting edge of conversational AI. This is my learning project where I dove deep into Tavus's conversational video interface and built some pretty cool custom features!
 
-This app includes:
-- **Beautiful Welcome Screen** with gradient animations and modern UI
-- **Hair Check Screen** with custom device selection and professional styling
-- **Video Call Interface** powered by Daily.co with real-time controls
-- **Tavus API Integration** for conversation management
-- **🆕 Custom LLM Server** with RAG (Retrieval-Augmented Generation) and tool calling
-- **🆕 Smart Fallback System** ensuring compatibility across all account types
-- **🆕 Real-time Status Indicators** showing active LLM configuration
+## ✨ What I Built
 
-### 🧠 AI Capabilities
+This project started as a learning experiment and turned into something pretty awesome:
 
-**Custom LLM with RAG & Tools:**
-- 🏢 **Company Knowledge Base** - Ask about ACME Corporation
-- 🌤️ **Weather Information** - Get real-time weather for any city
-- 🧮 **Mathematical Calculations** - Perform complex calculations
-- 📚 **RAG-Enhanced Responses** - Intelligent information retrieval
+- **🎨 Beautiful Welcome Screen** - Because first impressions matter, right?
+- **📱 Hair Check Screen** - Making sure you look your best before the call
+- **🎥 Video Call Interface** - Powered by Daily.co with real-time controls
+- **🤖 Tavus API Integration** - The backbone of conversation management
+- **🧠 Custom LLM Server** - My favorite part! Built with RAG and tool calling
+- **🔄 Smart Fallback System** - Because things don't always go as planned
+- **📊 Real-time Status Indicators** - Keeping you in the loop
 
-**Fallback System:**
-- 🟢 **Custom LLM + RAG + Tools** (Best experience with OpenAI)
+### 🧠 The AI Magic I Added
+
+**My Custom LLM with RAG & Tools:**
+- 🏢 **Company Knowledge Base** - Ask about ACME Corporation (my test company)
+- 🌤️ **Weather Information** - Because who doesn't want to know the weather?
+- 🧮 **Mathematical Calculations** - For when you need quick math
+- 📚 **RAG-Enhanced Responses** - Making AI responses smarter and more relevant
+
+**My Smart Fallback System:**
+- 🟢 **Custom LLM + RAG + Tools** (The full experience with OpenAI)
 - 🟡 **Basic Replica** (Standard Tavus replica)
 - 🔵 **Stock Persona** (Free trial compatible)
 
@@ -29,49 +32,46 @@ This app includes:
 | ![Prejoin UI](https://cdn.replica.tavus.io/git-examples/scr-1.png) | ![Hair check UI](https://cdn.replica.tavus.io/git-examples/scr-2.png) |
 | ![in-call UI](https://cdn.replica.tavus.io/git-examples/scr-3.png) |
 
+## 🎥 See It In Action
 
-## 🎥 Demo Video
-
-Check out our demo video to see the Conversational Video Interface in action:
+Check out the demo to see what I've been working on:
 
 [Watch the Demo](https://www.loom.com/share/b4e3ef661e264260a8d8f4cede48aaa8?sid=ada64974-5495-4c52-b635-7ac76b543208)
 
+## 🛠 Let's Get This Running
 
+### Quick Start (Stock Persona)
 
-## 🛠 Quick Start
-
-### Basic Setup (Stock Persona)
-
-1. **Add your Tavus API key:**
-   Edit the `.env` file and replace `your_api_key_here` with your actual API key:
+1. **Get your Tavus API key:**
+   Edit the `.env` file and add your API key:
    ```
    VITE_APP_TAVUS_API_KEY=your_actual_api_key_here
    ```
-   You can create an API key at https://platform.tavus.io/
+   Grab your key from https://platform.tavus.io/
 
-2. **Start the development server:**
+2. **Fire up the dev server:**
    ```
    npm run dev
    ```
 
 3. **Open your browser:**
-   Navigate to `http://localhost:5173` to see your app in action!
+   Head to `http://localhost:5173` and see the magic happen!
 
-### 🚀 Advanced Setup (Custom LLM + RAG + Tools)
+### 🚀 The Full Experience (Custom LLM + RAG + Tools)
 
-For the full experience with RAG and tool calling:
+Want to try the advanced features I built? Here's how:
 
 1. **Follow the basic setup above**
 
-2. **Set up the Custom LLM Server:**
-   See the detailed guide: [`setup-custom-llm.md`](./setup-custom-llm.md)
+2. **Set up my Custom LLM Server:**
+   Check out the detailed guide: [`setup-custom-llm.md`](./setup-custom-llm.md)
 
 3. **Quick start (Windows):**
    ```bash
    # Set your OpenAI API key
    set OPENAI_API_KEY=your_openai_api_key_here
    
-   # Start the custom LLM server
+   # Start my custom LLM server
    start-custom-llm.bat
    ```
 
@@ -80,14 +80,14 @@ For the full experience with RAG and tool calling:
    # Set your OpenAI API key
    export OPENAI_API_KEY=your_openai_api_key_here
    
-   # Start the custom LLM server
+   # Start my custom LLM server
    cd custom-llm-server
    python start_server.py
    ```
 
-## 🎯 Usage Examples
+## 🎯 Try These Cool Features
 
-Once the custom LLM is running, try these commands:
+Once my custom LLM is running, test it out with these commands:
 
 - **Company Info**: "Tell me about ACME Corporation"
 - **Weather**: "What's the weather like in Tokyo?"
@@ -101,18 +101,19 @@ Once the custom LLM is running, try these commands:
 **Required:**
 - `VITE_APP_TAVUS_API_KEY` - Your Tavus API key
 
-**Optional (for custom LLM):**
-- `OPENAI_API_KEY` - Your OpenAI API key for custom LLM features
+**Optional (for my custom LLM):**
+- `OPENAI_API_KEY` - Your OpenAI API key for the advanced features
 
 ### Customization
 
+Feel free to make this your own:
 - **Knowledge Base**: Edit `custom-llm-server/server.py` to add your own data
 - **Tools**: Add new functions to extend AI capabilities
-- **UI**: Modify React components for custom styling
+- **UI**: Modify React components for your own styling
 
 ## 📊 Status Indicators
 
-The app shows real-time status indicators:
+I added these status indicators to keep you informed:
 
 - 🟢 **Custom LLM + RAG + Tools**: Full functionality with OpenAI
 - 🟡 **Basic Replica**: Standard Tavus replica
@@ -120,23 +121,40 @@ The app shows real-time status indicators:
 - 🟡 **Connecting...**: Establishing connection
 - 🔴 **Disconnected**: Connection lost
 
-## 📚 Learn More
+## 📚 What I Learned
 
-- [Developer Documentation](https://docs.tavus.io/)
-- [API Reference](https://docs.tavus.io/api-reference/)
+This project taught me a ton about:
+- Building conversational AI interfaces
+- Integrating multiple APIs seamlessly
+- Implementing RAG (Retrieval-Augmented Generation)
+- Creating fallback systems for reliability
+- Real-time video communication
+- Modern React development with TypeScript
+
+## 🔗 Useful Resources
+
+- [Tavus Developer Documentation](https://docs.tavus.io/)
+- [Tavus API Reference](https://docs.tavus.io/api-reference/)
 - [Tavus Platform](https://platform.tavus.io/)
 - [Daily React Reference](https://docs.daily.co/reference/daily-react)
 - [OpenAI API Documentation](https://platform.openai.com/docs)
 
-## 🤝 Contributing
+## 🤝 Want to Collaborate?
 
-Feel free to customize and extend this app for your needs:
+This is my learning project, but I'm always open to:
+- **Adding new tools** to the custom LLM server
+- **Expanding the knowledge base** with more data
+- **Enhancing the UI** with additional features
+- **Integrating with other APIs** for real-time data
 
-1. **Add new tools** to the custom LLM server
-2. **Expand the knowledge base** with your own data
-3. **Enhance the UI** with additional features
-4. **Integrate with your APIs** for real-time data
+Feel free to fork, modify, and make it your own learning project too!
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the MIT License. Go ahead and use it for your own learning adventures!
+
+---
+
+**Built with ❤️ by Nazmul Hoque | Gen AI Engineer**
+
+*Learning never stops, and neither does innovation! 🚀*
